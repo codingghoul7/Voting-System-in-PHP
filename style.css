@@ -1,0 +1,74 @@
+body {
+    background-color: rgb(153, 204, 249);
+    text-align: center;
+}
+
+.headerSection {
+    padding: 1rem 1rem;
+}
+
+.phone {
+    margin-bottom: 0.5rem;
+    align-items: center;
+
+}
+
+.container {
+    padding: auto;
+}
+
+.password {
+    margin-bottom: 0.5rem;
+}
+
+.role {
+    margin-bottom: 0.5rem;
+}
+
+.button-login {
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    background-color: rgb(105, 105, 214);
+
+
+}
+
+.button-login ::hover {
+    background-color: aliceblue;
+}
+
+input {
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.drop-box {
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    width: 14%;
+
+}
+
+.address {
+    width: 28%;
+}
+
+.image-part {
+    border: 0.1rem solid rgb(0, 0, 0);
+    border-radius: 0.6rem;
+    padding: 0.5rem;
+    width: 30%;
+    margin-bottom: 0.5rem;
+}
+
+.role {
+    border: 0.1rem solid rgb(0, 0, 0);
+    border-radius: 0.6rem;
+    padding: 1rem 8rem;
+    width: 100%;
+    margin-bottom: 1rem;
+
+}

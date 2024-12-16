@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+    <div class="headerSection">
+        <h1>Register</h1>
+    </div>
+
+    <hr>
+    <form action="../api/register.php" method="post" enctype="multipart/form-data">
+
+        <input type="text" name="phone" placeholder="Enter phone no">
+        <input type="text" name="username" placeholder="Enter name">
+
+        <br>
+        <input type="password" name="password" placeholder="password">
+
+        <input type="password" name="cpassword" placeholder="Confirm password">
+        <br>
+        <input type="text" class="address" name="address" placeholder="address">
+        <br>
+
+        <center>
+
+
+            <div class="image-part">
+                <label for="image"> Uplode Image: <input type="file" name="photo" value="photo"></label>
+
+            </div>
+
+            <br>
+            <label class="role" for="role">Select role
+                <select name="role">
+                    <option value="1">voter</option>
+                    <option value="2">Group</option>
+                </select>
+            </label>
+        </center>
+
+        <br>
+        <button class="button-login" type="submit">Register</button>
+        <br>
+
+        Already user? <a href="#">login here</a>
+    </form>
+
+
+
+
+
+</body>
+
+</html>
